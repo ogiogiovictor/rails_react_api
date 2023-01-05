@@ -7,7 +7,7 @@ const fetchMessages = async () => {
   const messageData = data.map((msg) => ({
     id: msg.id,
     message: msg.message,
-    created_at: msg.created_at
+    created_at: msg.created_at,
   }));
 
   return messageData;

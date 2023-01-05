@@ -1,5 +1,5 @@
- import React from 'react';
- import SingleMessage from './SingleMessage';
+import React from 'react';
+import SingleMessage from './SingleMessage';
 
 const AllMessage = ({ msg }) => (
   <ul className="rockets-list">
