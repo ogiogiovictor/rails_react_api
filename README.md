@@ -7,14 +7,12 @@
   <h3><b>React-Rails- App</b></h3>
 </div>
 
-
-
-# Recipe App
+# Message App
 
 > This app consume API from a Rails Backend
 
-## Live Demo
-- Soon
+## Backend Link 
+- (Backend Link) [https://github.com/ogiogiovictor/rails-api]
 
 ## Built With
 - React
