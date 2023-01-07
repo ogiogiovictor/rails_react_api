@@ -1,16 +1,11 @@
-import React, {Fragment} from 'react';
-import { useDispatch } from 'react-redux';
+import React from 'react';
 import '../index.css';
 
-
-const SingleMessage = ({message, created_at }) => {
-  return (
-    <Fragment>
+const SingleMessage = ({ message }) => (
+  <>
     <li>{message}</li>
-    <li>{created_at} </li>
-    </Fragment>
-  );
-};
 
+  </>
+);
 
 export default SingleMessage;

@@ -8,7 +8,7 @@ function App() {
       <h2>LIST OF MESSAGES</h2>
       <BrowserRouter>
         <Routes>
-        <Route path="/" element={<MessageComponent />} />
+          <Route path="/" element={<MessageComponent />} />
         </Routes>
       </BrowserRouter>
     </div>
